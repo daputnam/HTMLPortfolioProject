@@ -7,13 +7,16 @@ body {
   background: -webkit-linear-gradient(to top, #ff4b1f , #1fddff); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #ff4b1f , #1fddff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  padding:20px 30px;
+  padding:50px 30px;
 
   color: white;
 
 }
 .tagline {
-  color: #6b6b6b;
-  background-image: url(../img/austin.jpg);
-  padding:20px 30px;
+  color: white;
+  background:linear-gradient(
+      rgba(75, 75, 75, 0.45),
+      rgba(15, 15, 15, 0.45)
+    ), url(austin.jpg) no-repeat center;
+  padding:80px 30px;
 }
