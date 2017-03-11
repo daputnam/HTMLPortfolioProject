@@ -1,6 +1,19 @@
-.body {
+body {
   font-family: 'Roboto', sans-serif;
+  margin:0;
 }
 .header {
-  background-color: #red;
+  background: #ff4b1f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #ff4b1f , #1fddff); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #ff4b1f , #1fddff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding:20px 30px;
+
+  color: white;
+
+}
+.tagline {
+  color: #6b6b6b;
+  background-image: url(../img/austin.jpg);
+  padding:20px 30px;
 }
