@@ -20,3 +20,14 @@ body {
     ), url(austin.jpg) no-repeat center;
   padding:80px 30px;
 }
+.skills {
+  padding:80px 30px;
+  background: #d3d3d3;
+}
+.contact {
+  padding:80px 30px;
+  background: #ff4b1f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #ff4b1f , #1fddff); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #ff4b1f , #1fddff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
